@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quienes Somos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      position: relative;
+      background-image: url('https://scontent.fclo9-1.fna.fbcdn.net/o1/v/t0/f2/m340/AQOv08iqy5ZSvBpsFxOCdx5YThGNbahdVC1bq0FARE6zIyJQ4tJ8Bl2lxh17IWOR2UHumD7mtguFrTirVZaj7sF64bhg-fc8l1EABA7D0rzbfyTfoc5IQHI9Sh5d-H8THPdOcxwRa-AD5J9XUWExUy-2RiBSfA.jpeg?_nc_ht=scontent.fclo9-1.fna.fbcdn.net&_nc_gid=hfM8zepHnC2yWoQ6NiW10w&_nc_cat=108&_nc_oc=AdnJDwchQwzKLiFgBldfm7FSNyWapDi7aWplC0ZXsmJXd5_lc3L4FK7bWV5EV8rZsW4&ccb=9-4&oh=00_AfJW-XKfsapmve-QaqKldvL6I-T4wfRrtzJBwkKkpnJA5A&oe=682C007F&_nc_sid=5b3566');
+      background-size: cover;
+      background-position: center;
+      color: #fafafa;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* superposición oscura */
+      z-index: 1;
+    }
+
+    header h1,
+    header nav {
+      position: relative;
+      z-index: 2;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      margin: 0;
+      padding: 0;
+      background: #f7e1ef;
+      min-height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .cl {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      padding: 2rem 0;
+      margin: 0;
+      align-items: center;
+    }
+
+    .cl li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .cl ion-icon {
+      font-size: 1.8rem;
+      color: #bc49a1;
+    }
+
+    .cl a {
+      color: #bc49a1;
+      text-decoration: none;
+    }
+
+    .cl a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>¿Quiénes Somos?</h1>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+        <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section style="padding: 2rem; max-width: 800px; text-align: center; margin: 0 auto;">
+  <h2 style="color: #bc49a1;">¿De qué trata nuestro proyecto?</h2>
+  <p style="font-size: 1.1rem; color: #333;">
+    Nuestro proyecto es un emprendimiento creativo basado en la figura de <strong>Hello Kitty</strong>, pensado para traer dulzura, estilo y nostalgia a todas las edades. A través de productos como pasteles personalizados, detalles decorativos y más, buscamos llevar la ternura y el encanto de Hello Kitty a celebraciones especiales, regalos y experiencias únicas. ¡Conoce nuestra propuesta y déjate envolver por la magia rosada de nuestro mundo!
+  </p>
+  <hr style="margin: 2rem 0;">
+  <p style="font-size: 0.95rem; color: #555;">
+    © 2025 Este sitio ha sido desarrollado como parte de un proyecto académico con fines creativos y educativos. Todos los contenidos, diseños e imágenes han sido producidos con inspiración en el universo de Hello Kitty, respetando su carácter de marca registrada. Esta página fue diseñada por: <strong>Alejandro Cubillos, Camila Sotelo, Manuel Romero, Santiago Cano</strong>, con asistencia en redacción y estructura por <strong>ChatGPT (OpenAI)</strong>.
+  </p>
+</section>
+    </section>
+  </main>
+</body>
+</html>
